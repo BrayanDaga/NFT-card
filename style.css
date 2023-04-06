@@ -22,6 +22,7 @@
 html {
   font-family: var(--font-fami);
   font-size: var(--font-sz);
+
 }
 
 .container {
@@ -71,20 +72,24 @@ figure {
 
 .card-title,
 .card-text,
-.card-state,
-hr {
-  margin-top: 14px;
+.card-state {
+  margin-top: 20px;
+}
+
+hr{
+  margin-top: 24px;
 }
 
 .card-title {
   color: var(--white);
   font-weight: 600;
-  font-size: 1.35rem;
+  font-size: 1.45rem;
 }
 
 .card-text {
-  font-size: 0.92rem;
+  font-size: 0.97rem;
   font-weight: 300;
+  line-height: 28px;
 }
 
 .card-body .card-state {
@@ -111,8 +116,8 @@ hr {
 }
 
 .user-info {
-  margin-top: 8px;
-  font-size: 0.9rem;
+  margin-top: 20px;
+  font-weight: 300;
 }
 
 .user-info img {
